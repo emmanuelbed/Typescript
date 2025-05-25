@@ -9,3 +9,9 @@ let courses = ["HTML", "CSS", "Typescript"];
 let arr = [true, '123', 321];
 let stringArray = [['a'], ['b']];
 let testing = true;
+// Tuples
+let person = ["John", 25];
+let people = [
+    ["Alex", 18],
+    ["John", 26]
+];
