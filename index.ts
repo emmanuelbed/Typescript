@@ -4,3 +4,9 @@ let age:number = 29
 let course: string = "Typescript"
 let lessonCompleted: boolean = true
 let x: any = 12
+
+//Arrays
+let courses: string[] = ["HTML", "CSS", "Typescript"]
+let arr: any[] = [true, '123', 321]
+
+let stringArray: string[][] = [['a'], ['b']]
