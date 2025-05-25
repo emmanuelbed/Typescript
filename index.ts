@@ -10,3 +10,5 @@ let courses: string[] = ["HTML", "CSS", "Typescript"]
 let arr: any[] = [true, '123', 321]
 
 let stringArray: string[][] = [['a'], ['b']]
+
+let testing: boolean = true
