@@ -20,3 +20,14 @@ let people: [string, number][] = [
     ["Alex", 18],
     ["John", 26]
 ]
+
+// TypeScript
+let student: {
+    name: string,
+    age: number,
+    isPassing: boolean
+} = {
+    name: "Emmanuel",
+    age: 14,
+    isPassing: true
+}

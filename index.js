@@ -15,3 +15,9 @@ let people = [
     ["Alex", 18],
     ["John", 26]
 ];
+// TypeScript
+let student = {
+    name: "Emmanuel",
+    age: 14,
+    isPassing: true
+};
