@@ -1,7 +1,6 @@
-
+// Basic Tyles
 
 let age:number = 29
-
 let course: string = "Typescript"
-
-course = true
+let lessonCompleted: boolean = true
+let x: any = 12
