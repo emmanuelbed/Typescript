@@ -46,7 +46,25 @@ sum(1, 2);
 function greet() {
     console.log("hello");
 }
+//Generics
 function getFirstElement(arr) {
     return arr[0];
 }
 getFirstElement([1, 2, 3]);
+// Enums
+var Grade;
+(function (Grade) {
+    Grade["freshman"] = "First Year student in High scheel";
+    Grade["sophmore"] = "Second Year student in High scheel";
+    Grade["junior"] = "Third Year student in High scheel";
+    Grade["senior"] = "Fourth Year student in High scheel";
+})(Grade || (Grade = {}));
+function displayStudentInfo(student) {
+    const studentInfo = student.name + " \n " + student.age + " \n" + student.grade;
+    document.body.innerHTML = studentInfo;
+}
+displayStudentInfo({
+    name: "John",
+    age: 25,
+    grade: Grade.junior
+});

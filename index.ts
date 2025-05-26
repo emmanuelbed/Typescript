@@ -85,10 +85,37 @@ function greet(): void{
     console.log("hello");
     
 }
-
+//Generics
 function getFirstElement <ArrayType> (arr: ArrayType[]){
     return arr[0]
 }
 
 getFirstElement<number>([1,2,3])
 
+
+// Enums
+enum Grade {
+    freshman = "First Year student in High scheel",
+    sophmore ="Second Year student in High scheel",
+    junior = "Third Year student in High scheel",
+    senior = "Fourth Year student in High scheel"
+}
+
+interface StudentObject{
+    name: string,
+    age: number,
+    grade: Grade
+}
+
+
+function displayStudentInfo(student: StudentObject): void{
+    const studentInfo: string = student.name + " \n " + student.age + " \n" + student.grade
+
+    document.body.innerHTML = studentInfo
+}
+
+displayStudentInfo({
+    name:"John",
+    age: 25,
+    grade: Grade.junior
+})
