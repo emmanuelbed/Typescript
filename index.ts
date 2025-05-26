@@ -103,7 +103,7 @@ enum Grade {
 
 interface StudentObject{
     name: string,
-    age: number,
+    age?: number,
     grade: Grade
 }
 
@@ -116,6 +116,5 @@ function displayStudentInfo(student: StudentObject): void{
 
 displayStudentInfo({
     name:"John",
-    age: 25,
     grade: Grade.junior
 })

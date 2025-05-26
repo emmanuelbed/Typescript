@@ -65,6 +65,5 @@ function displayStudentInfo(student) {
 }
 displayStudentInfo({
     name: "John",
-    age: 25,
     grade: Grade.junior
 });
