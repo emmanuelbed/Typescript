@@ -44,3 +44,16 @@ let student1: Student = {
     age: 17,
     isPassing: false
 }
+
+// Interfaces
+interface Student1 {
+    name: string,
+    age: number,
+    isPassing: boolean
+}
+
+let student2: Student1 = {
+    name: "Jnr",
+    age: 25,
+    isPassing: true
+}

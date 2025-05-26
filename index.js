@@ -26,3 +26,8 @@ let student1 = {
     age: 17,
     isPassing: false
 };
+let student2 = {
+    name: "Jnr",
+    age: 25,
+    isPassing: true
+};
