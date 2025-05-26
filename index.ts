@@ -21,7 +21,7 @@ let people: [string, number][] = [
     ["John", 26]
 ]
 
-// TypeScript
+// Objects
 let student: {
     name: string,
     age: number,
@@ -30,4 +30,17 @@ let student: {
     name: "Emmanuel",
     age: 14,
     isPassing: true
+}
+
+// Custom Types
+type Student = {
+    name: string,
+    age: number,
+    isPassing: boolean
+}
+
+let student1: Student = {
+    name: "Alex",
+    age: 17,
+    isPassing: false
 }

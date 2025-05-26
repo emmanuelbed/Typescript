@@ -15,9 +15,14 @@ let people = [
     ["Alex", 18],
     ["John", 26]
 ];
-// TypeScript
+// Objects
 let student = {
     name: "Emmanuel",
     age: 14,
     isPassing: true
+};
+let student1 = {
+    name: "Alex",
+    age: 17,
+    isPassing: false
 };
