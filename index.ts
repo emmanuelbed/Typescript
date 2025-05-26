@@ -57,3 +57,8 @@ let student2: Student1 = {
     age: 25,
     isPassing: true
 }
+
+
+// Unions
+let result: string | number = "John"
+result = 25

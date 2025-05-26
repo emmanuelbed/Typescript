@@ -31,3 +31,6 @@ let student2 = {
     age: 25,
     isPassing: true
 };
+// Unions
+let result = "John";
+result = 25;
