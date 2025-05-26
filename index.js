@@ -34,3 +34,4 @@ let student2 = {
 // Unions
 let result = "John";
 result = 25;
+let johnIsPassing = "passed";

@@ -62,3 +62,6 @@ let student2: Student1 = {
 // Unions
 let result: string | number = "John"
 result = 25
+
+type isPassing = "passed" | "failed"
+let johnIsPassing: isPassing = "passed"
