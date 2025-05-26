@@ -46,3 +46,7 @@ sum(1, 2);
 function greet() {
     console.log("hello");
 }
+function getFirstElement(arr) {
+    return arr[0];
+}
+getFirstElement([1, 2, 3]);

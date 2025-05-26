@@ -85,3 +85,10 @@ function greet(): void{
     console.log("hello");
     
 }
+
+function getFirstElement (arr: number[]): number{
+    return arr[0]
+}
+
+getFirstElement([1,2,3])
+
