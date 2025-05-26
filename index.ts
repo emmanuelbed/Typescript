@@ -86,9 +86,9 @@ function greet(): void{
     
 }
 
-function getFirstElement (arr: number[]): number{
+function getFirstElement <ArrayType> (arr: ArrayType[]){
     return arr[0]
 }
 
-getFirstElement([1,2,3])
+getFirstElement<number>([1,2,3])
 
