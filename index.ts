@@ -65,3 +65,9 @@ result = 25
 
 type isPassing = "passed" | "failed"
 let johnIsPassing: isPassing = "passed"
+
+
+
+// Type Assertion
+let y: any = "Hello"
+y = <number> 25

@@ -35,3 +35,6 @@ let student2 = {
 let result = "John";
 result = 25;
 let johnIsPassing = "passed";
+// Type Assertion
+let y = "Hello";
+y = 25;
