@@ -71,3 +71,17 @@ let johnIsPassing: isPassing = "passed"
 // Type Assertion
 let y: any = "Hello"
 y = <number> 25
+
+
+// Functions
+function sum(num1: number, num2: number): number {
+    return num1 + num2
+}
+
+sum(1, 2)
+
+
+function greet(): void{
+    console.log("hello");
+    
+}

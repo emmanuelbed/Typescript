@@ -38,3 +38,11 @@ let johnIsPassing = "passed";
 // Type Assertion
 let y = "Hello";
 y = 25;
+// Functions
+function sum(num1, num2) {
+    return num1 + num2;
+}
+sum(1, 2);
+function greet() {
+    console.log("hello");
+}
